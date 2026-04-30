@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "harmfulsmoke"
+version = "${mod_version}"
+displayName = "${mod_name}"
+logoFile = "assets/harmfulsmoke/textures/icon.png"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+[[dependencies.harmfulsmoke]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.harmfulsmoke]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,1.22)"
+    ordering = "NONE"
+    side = "BOTH"
