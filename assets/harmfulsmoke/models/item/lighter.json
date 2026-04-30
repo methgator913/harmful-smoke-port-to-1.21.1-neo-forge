@@ -1,0 +1,7 @@
+{
+  "parent": "harmfulsmoke:custom/cigarette_lighter",
+  "textures": {
+    "0": "harmfulsmoke:block/cigarette_lighter",
+    "particle": "harmfulsmoke:item/cigarette_lighter"
+  }
+}

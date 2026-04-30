@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " c ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    },
+    "c": {
+      "item": "harmfulsmoke:dried_tobacco_leaf"
+    }
+  },
+  "result": {
+    "item": "harmfulsmoke:deco_cigar",
+    "count": 1
+  }
+}

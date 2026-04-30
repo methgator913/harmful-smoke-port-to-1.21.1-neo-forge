@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "harmfulsmoke:block/tobacco_plant_5"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "harmfulsmoke:lit_cigar"
+    }
+  },
+  "result": {
+    "item": "harmfulsmoke:deco_cigar",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "harmfulsmoke:custom/burnt_cigar_",
+  "textures": {
+    "3": "harmfulsmoke:block/lit_cigar",
+    "particle": "harmfulsmoke:item/lit_cigar"
+  }
+}

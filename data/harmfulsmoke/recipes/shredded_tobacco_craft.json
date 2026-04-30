@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "harmfulsmoke:dried_tobacco_leaf"
+    }
+  ],
+  "result": {
+    "item": "harmfulsmoke:shredded_tobacco",
+    "count": 2
+  }
+}

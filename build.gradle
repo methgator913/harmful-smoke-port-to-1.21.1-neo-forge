@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.gradle.userdev' version '7.0.171'
+}
+
+version = '1.0.7-alpha-neoforge-1.21.1'
+group = 'net.skilful_kit'
+
+base {
+    archivesName = 'harmfulsmoke'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+runs {
+    configureEach {
+        systemProperty 'forge.logging.markers', 'REGISTRIES'
+        systemProperty 'forge.logging.console.level', 'debug'
+        modSource project.sourceSets.main
+    }
+    client { }
+    server {
+        programArgument '--nogui'
+    }
+    data {
+        arguments.addAll '--mod', 'harmfulsmoke', '--all',
+                '--output', file('src/generated/resources/').getAbsolutePath(),
+                '--existing', file('src/main/resources/').getAbsolutePath()
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:21.1.78"
+}
+
+tasks.withType(ProcessResources).configureEach {
+    var replaceProperties = [
+            minecraft_version      : '1.21.1',
+            neo_version            : '21.1.78',
+            mod_id                 : 'harmfulsmoke',
+            mod_name               : 'Harmful smoke',
+            mod_version            : project.version,
+            mod_authors            : 'skilful-kit',
+            mod_description        : 'A cigarette mod in which you can create tobacco potions for trade or consumption.'
+    ]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}

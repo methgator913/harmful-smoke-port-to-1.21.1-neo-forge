@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "harmfulsmoke:shredded_tobacco"
+    },
+    "b": {
+      "item": "minecraft:paper"
+    },
+    "c": {
+      "item": "harmfulsmoke:filter_for_cigarettes"
+    }
+  },
+  "result": {
+    "item": "harmfulsmoke:cigarette",
+    "count": 1
+  }
+}

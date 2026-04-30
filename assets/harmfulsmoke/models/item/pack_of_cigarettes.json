@@ -1,0 +1,7 @@
+{
+  "parent": "harmfulsmoke:custom/pack_of_cigarettes",
+  "textures": {
+    "0": "harmfulsmoke:block/pack_of_cigarettes_2",
+    "particle": "harmfulsmoke:item/pack_of_cigarettes_2"
+  }
+}

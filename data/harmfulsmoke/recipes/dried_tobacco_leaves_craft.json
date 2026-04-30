@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 850,
+  "ingredient": {
+    "item": "harmfulsmoke:tobacco_leaf"
+  },
+  "result": {
+    "id": "harmfulsmoke:dried_tobacco_leaf"
+  }
+}

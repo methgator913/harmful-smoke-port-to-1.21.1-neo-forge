@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "harmfulsmoke:lit_cigarette"
+    }
+  },
+  "result": {
+    "item": "harmfulsmoke:deco_cigarette",
+    "count": 1
+  }
+}

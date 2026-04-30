@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "harmfulsmoke:blocks/wild_tobacco_plant",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "harmfulsmoke:tobacco_seeds"
+        }
+      ]
+    }
+  ]
+}
